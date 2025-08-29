@@ -10,4 +10,6 @@ Answer the following questions clearly:
          procces: when an event frist occurs on a child element and then travels up through its parent element to the top of the DOM tree.
 4. What is Event Delegation in JavaScript? Why is it useful?
      ans: event delegation is a DOM event handling procces where a single event listener is added to a perent element to handle events trrigered by its child elements using event bubbling.
-6. What is the difference between **preventDefault() and stopPropagation()** methods?
+6. What is the difference between preventDefault() and stopPropagation() methods?
+     ans: preventDefault() - Stops the The browser’s default behavior. 
+          stopPropagation() -  stop the event from bubbling up to perent element.
